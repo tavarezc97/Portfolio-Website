@@ -1,0 +1,693 @@
+
+
+
+
+body{
+  font-family: "Montserrat";
+  font-weight: 500;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+
+
+p{
+  color: #333366; /* f8f8f */
+  font-size: 1.3rem;
+}
+
+hr{
+  background: inherit;
+  border: dotted black 5px;
+  border-bottom: none;           /* This will take away the bottom dotted line so that there will only be one showing */
+  width: 5%;
+  margin: auto;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+
+}
+
+a{                      /* This will not show the blue color  */
+  color:inherit;
+}
+
+a:hover{                      /* once it hovers over the button it will not show the blue color */
+  color:inherit;
+  text-decoration: none;      /* This will take away the underline when you hover over it*/
+
+}
+
+
+
+
+/* BUTTON DESIGN */
+
+.button-design {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 20px;
+  background: #264e70;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+
+}
+
+.button-design:hover {
+  background: #fdebd3;
+  color: black;
+  text-decoration: none;
+}
+
+.button-spacing{
+  margin-top: 4%;
+}
+
+
+
+
+/* SHORTEN LENGTH OF SENTENCE */
+
+.text-length{
+
+}
+
+
+
+/* CONTAINER */
+
+.container-fluid{
+  padding: 5% 10% ;  /*The top and bottom 0% , and 10% left and right , this is a Bootstrap class to keep it responsive*/
+
+}
+
+
+
+
+/* SECTION HEADING TITLES */
+
+.section-title{
+  padding: 0% 10% ;  /*The top and bottom 0% , and 10% left and right , this is a Bootstrap class to keep it responsive*/
+
+}
+
+
+
+
+
+/* TEXT SPACING */
+
+.text-spacing{
+  margin-top: 5%;
+}
+
+
+
+
+
+/* HEADING H1 POSITION */
+
+.heading-position{
+  text-align: center;
+}
+
+
+
+/* NAVAGATION BAR SECTION */
+
+#navbar-section .container-fluid{        /* Gives the navigation bar a different padding from the rest*/
+  padding: 0% 10%;
+}
+
+.navbar{
+  padding: 4.5rem;
+}
+
+
+.navbar-brand{
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.9rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+/* HOMEPAGE SECTION */
+
+#intro-section .container-fluid{
+
+  padding: 0% 10%;
+}
+
+
+
+.animoji-picture{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.intro-text{
+  text-align: center;
+
+}
+
+
+.third-work-centered{
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+/* ABOUT ME SECTION HOME PAGE */
+
+
+.about-me-animoji{
+  width: 80%;
+
+}
+
+
+/* MEDIA QUERY */
+@media only screen and (min-width: 500px)and (max-width:767px){
+ .about-me-animoji{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 75%;
+ }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+ .about-me-animoji{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ }
+}
+
+
+
+
+
+
+/* MY WORK SECTION HOME PAGE */
+
+
+#my-work{
+  position: relative;
+}
+
+.my-work-section{
+  padding: 4%;
+
+}
+
+.icon-images{
+  width: 200px;
+  margin-bottom: 15%;
+}
+
+/* MEDIA QUERY */
+ @media only screen and (max-width:767px){
+  .icon-images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  }
+}
+
+
+
+
+
+
+/* CONTACT ME SECTION HOME PAGE */
+
+
+.contact-me-picture{
+  width: 400px;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width:767px){
+ .contact-me-picture{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 60%;
+ }
+}
+
+
+
+
+
+
+/* FOOTER SECTION */
+
+
+#footer{
+text-align: center;
+}
+
+
+.footer-icons{
+  margin: 20px 10px;
+}
+
+.copyright-text{
+  margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ABOUT ME PAGE */
+
+
+.about-me-picture{
+  width: 80%;
+}
+
+
+
+.skills-images{
+  width: 15%;
+  margin: 15px;
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 500px)and (max-width:767px){
+ .about-me-picture{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 70%;
+ }
+}
+
+@media only screen and (min-width:700px) and (max-width:991px) {
+ .about-me-picture{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
+}
+
+
+
+
+
+
+/* GRAPHIC DESIGN PAGE */
+
+.graphic-design-logo{
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.graphic-images-size{
+width: 100%;
+padding: 5%;
+filter: drop-shadow(2px 4px 8px #585858);
+}
+
+
+
+.button-center{
+  margin: 5% auto;
+}
+
+
+
+
+
+
+
+
+/* SOCIAL MEDIA PAGE  */
+
+
+.social-media-logo{
+  width: 250px;
+  margin-bottom: 5%;
+}
+
+.social-media-feed{
+  width: 100%;
+  padding: 5% 10% ;
+  filter: drop-shadow(2px 4px 8px #585858);
+}
+
+.social-media-description-spacing{
+  margin-bottom: 5%;
+
+}
+
+
+.ny-foodies-title{
+  text-align: center;
+  color: #975640;
+  margin-top: 80px;
+}
+
+.keepingup-mets-title{
+  text-align: center;
+  color: #002D72;
+  margin-top: 80px;
+}
+
+.social-media-hr-spacing{
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+/* INSTAGRAM FEED STYLE CODE */
+
+:root {
+    font-size: 15px;
+}
+
+
+
+/* Gallery Section */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem -1rem;
+    padding-bottom: 3rem;
+}
+
+.gallery-item {
+    position: relative;
+    flex: 1 0 22rem;
+    margin: 1rem;
+    color: #fff;
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 8px #585858);
+
+}
+
+.gallery-item:hover .gallery-item-info,
+ .gallery-item-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item-info {
+    display: none;
+}
+
+.gallery-item-info li {
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.gallery-item-likes {
+    margin-right: 2.2rem;
+}
+
+.gallery-item-type {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.fa-clone,
+.fa-comment {
+    transform: rotateY(180deg);
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WEB DEVELOPMENT PAGE */
+
+.web-development-logo{
+  width: 250px;
+  margin-bottom: 5%;
+}
+
+.web-development-hr-space{
+  margin-top: 5%;
+}
+
+.section-title-spacing{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.website-images-size{
+width: 90%;
+padding: 0% 3% 3%;        /* top is 0% , 3% is right + left, last 3% is bottom  */
+filter: drop-shadow(2px 4px 8px #585858);
+}
+
+
+
+/* MEDIA QUERY */
+@media only screen and (min-width:500px) and (max-width:991px) {
+ .website-images-size{
+   margin-top: 10%;
+
+ }
+}
+
+
+@media only screen and (min-width:600px) and (max-width:976px) {
+ .website-images-size{
+   width: 75%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+}
+
+
+@media only screen and (min-width:500px) and (max-width:991px) {
+ .project-title-space{
+   margin-top: 10%;
+
+ }
+}
+
+
+@media only screen and (min-width:500px) and (max-width:991px) {
+ .section-title{
+   margin-top: 10%;
+  margin-bottom: 3%;
+
+ }
+}
+
+
+@media only screen and (max-width: 635px){
+  .web-development-hr-space{
+    margin-top: 10%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SOCIAL MEDIA PART 2 PRACTICE SET UP */
+
+
+
+/*
+
+.card{
+  background: white;
+  padding: 0.8rem;
+  border-radius: 20px;
+  filter: drop-shadow(2px 4px 8px #585858);
+}
+
+
+POST HEADER PART
+
+.post_header{
+  display:flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+  position: relative;
+}
+
+.post_header i{
+  position: absolute;
+  right: 0;
+}
+
+.heading{
+  margin-left: 1em;
+}
+
+.heading .main_heading{
+  font-size: 1em;
+}
+
+.heading .sub_heading{
+  font-size:0.8em;
+  color: rgba(0, 0, 0, 0.836);
+}
+
+.post_header img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.432);
+}
+
+
+
+POST IMAGE PART
+
+.post_img img{
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.397);
+}
+
+
+  POST FOOTER
+.post_footer{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15%;
+
+}
+
+.heart-btn{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  color: red;
+}
+
+
+
+
+
+.left_box{
+  display: flex;
+  align-items: center;
+}
+
+.left_box i{
+  width: 40px;
+  height: 40px;
+  margin-left: 0.4em;
+}
+
+.right_box i{
+  width: 17px;
+  height: 17px;
+}
+
+
+*/
