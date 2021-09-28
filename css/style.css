@@ -72,12 +72,6 @@ a:hover{                      /* once it hovers over the button it will not show
 
 
 
-/* SHORTEN LENGTH OF SENTENCE */
-
-.text-length{
-
-}
-
 
 
 /* CONTAINER */
@@ -176,9 +170,13 @@ a:hover{                      /* once it hovers over the button it will not show
 }
 
 
-.third-work-centered{
-  text-align: center;
+/* MEDIA QUERY */
 
+@media only screen and (min-width: 753px)and (max-width:976px){
+  .third-work-centered{
+    text-align: center;
+
+  }
 }
 
 
