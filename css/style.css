@@ -521,7 +521,7 @@ filter: drop-shadow(2px 4px 8px #585858);
 
 
 /* MEDIA QUERY */
-@media only screen and (min-width:500px) and (max-width:991px) {
+@media only screen and (min-width:300px) and (max-width:991px) {
  .website-images-size{
    margin-top: 10%;
 
